@@ -1,4 +1,4 @@
-#include < stdio.h >
+#include < unistd.h >
 /**
  * main - using the function puts
  * Return: 0 (Success)
