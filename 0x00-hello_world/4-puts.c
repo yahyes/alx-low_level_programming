@@ -1,7 +1,7 @@
-#include < unistd.h >
+#include < stdio.h >
 /**
- * main - using the function puts
- * Return: 0 (Success)
+ * main - Emtry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
