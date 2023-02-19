@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -S -masm=intel $CFILE -o $ASMFILE
+export CFILE=0-main.c
+gcc -S -masm=intel $CFILE -o ${CFILE%.c}.s
+
