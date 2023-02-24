@@ -1,13 +1,22 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal
- * @n - number of times
- *
+ * print_line - function definition
+ * Description: print dashes as many as n times
+ * @n - number of dashes to print
  * Return: void
  */
 
-int print_line(void)
+void print_line(int n);
+
+/**
+ * print_line - function definition
+ * Description: print dashes n times
+ * @n: number of dashes to print
+ * Return: void
+ */
+
+void print_line(int n)
 {
 	int i;
 
