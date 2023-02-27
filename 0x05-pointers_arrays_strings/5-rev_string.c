@@ -1,4 +1,4 @@
-#include "main,h"
+#include "main.h"
 
 /**
  * rev_string - a function that reverses a string
@@ -12,7 +12,7 @@ void rev_string(char *s)
 
 	int aux = 0;
 
-	char 1temp;
+	char temporary;
 
 
 	while (*(s + i) != '\0')
@@ -21,9 +21,9 @@ void rev_string(char *s)
 
 	while (aux < 1)
 	{
-		1temp = s[i];
+		temporary = s[i];
 		s[i] = s[aux];
-		s[aux] = 1temp;
+		s[aux] = temporary;
 		aux++;
 		i--;
 	}
