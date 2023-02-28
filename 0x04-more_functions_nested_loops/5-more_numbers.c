@@ -16,21 +16,21 @@ void more_numbers(void);
 
 void more_numbers(void)
 {
-	int counter;
-	int number;
+	int row;
+	int col;
 
-	for (counter = 0; counter <= 9; counter++)
+	for (row = 0; row <= 10; row++)
 	{
-		for (number = 0; number <= 14; number++)
+		for (col = 0; col <= 14; col++)
 		{
-			if (number > 9)
+			if (col > 9)
 			{
-				_putchar(number / 10 + '0');
+				_putchar('1');
 			}
-			_putchar(number % 10 + '0');
+			_putchar((col % 10) + '0');
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
 
 
