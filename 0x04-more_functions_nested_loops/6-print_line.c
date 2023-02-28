@@ -3,8 +3,8 @@
 /**
  * print_line - function definition
  * Description: print dashes as many as n times
- * @n - number of dashes to print
- * Return: void
+ * @n: number of dashes to print
+ * Return: has no return values
  */
 
 void print_line(int n);
@@ -13,24 +13,18 @@ void print_line(int n);
  * print_line - function definition
  * Description: print dashes n times
  * @n: number of dashes to print
- * Return: void
+ * Return: has no return value
  */
 
 void print_line(int n)
 {
-	int i;
+	int counter = 0;
 
-	if (n <= 0)
+	while (n > 0 && counter < n)
 	{
-	_putchar('\n');
-	}
-	else
-	{
-	for (i = 0; i < n; i++)
-	{
-	_putchar('_');
+		_putchar('_');
+		counter++;
 	}
 	_putchar('\n');
-	}
 }
 
