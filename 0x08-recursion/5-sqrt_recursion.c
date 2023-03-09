@@ -18,7 +18,7 @@ int my_sqrt(int num, int root);
 int _sqrt_recursion(int n);
 
 /**
- * my_sqrt - definition of function
+ * my_sqrt - returns the natural square root of a number
  * @num: the number to find the square root of
  * @root: the root
  * Return: the square root or -1
